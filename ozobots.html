@@ -1,0 +1,210 @@
+<!doctype html>
+
+<!--
+Link zur Praesentation: https://anjalorenz.github.io/slides/2019-08-19-Ozobots.html
+-->
+
+<html lang="de">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Kurzeinf&uuml;hrung Ozobots</title>
+
+		<meta name="description" content="Ozobots">
+		<meta name="author" content="Anja Lorenz">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/custom.css">
+		
+		<!-- TODO: Theme black, white, simple, blood, night, moon, league, solarized, serif, beige, sky -->
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="images/ozobot-draw.gif">
+					<h1>Ozobots</h1>
+					<h2>We call it &#9996;&#65039;programming&#9996;&#65039;</h2>
+					<p style="font-size:70%">
+						<br/><br/>Soweit gesetzlich m&ouml;glich, wird auf alle Urheberrechte und verwandten Schutzrechte verzichtet. Auf Ausnahmen wird bei den verwendeten Werken hingewiesen.<br/>
+						<a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/deed.de"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://licensebuttons.net/l/zero/1.0/88x31.png" /></a>
+					</p>
+					<p style="background-color: #910851; opacity: 0.7; font-size:80%">&nbsp;<a href="https://twitter.com/anjalorenz">@anjalorenz</a> | &#128279;Slides: <a href="https://kurzelinks.de/ozobots" target="blank">https://kurzelinks.de/ozobots</a>&nbsp;</p>
+				</section>
+				<section>
+					<section data-background="#1a6e99">
+						<h2>Kernkompetenz Programmieren!?<br/>
+						&#128105;&#8205;&#128187; &#128104;&#8205;&#128187;</h2>
+					</section>
+					<section data-background="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif">
+						<h2>&#128105;&#8205;&#127979; &#128104;&#8205;&#127979;</h2>
+					</section>
+				</section>
+				<section>
+					<section data-background="#410f5e" id="fragments">
+						<h2><a href="https://ozobot.com/">Ozobot</a></h2>
+						<p>Miniroboter auf R&auml;dern</p>
+						<p class="fragment">Optischer Sensor f&uuml;r 4 Farben &#128420; &#128153; &#128154; &#10084;&#65039;</p>
+						<p class="fragment"><b>Bit (ausprobiert)</b> vs. Evo (mehr Schnickschnack: Fernbedienung, Bluetooth, LEDs, Ton, andere Apps...)</p>
+						<p class="fragment">diverses Zubeh&ouml;r, auch Klassens&auml;tze</p>
+					</section>
+					<section data-background-iframe="https://ozobot-deutschland.de/ozobot-kaufen-order/?orderby=price" data-background-interactive></section>
+					<section data-background="#910851">
+						<h2>&#128377;&#65039; "On"-Button</h2>
+						<p>An- & Ausschalten: 1x</p>
+						<p>gespeichertes Programm ausf&uuml;hren: 2x</p>
+					</section>
+					<section data-background="#910851">
+						<h2>Optionen zur Programmierung</h2>
+						<p>&#128073; Linien und Farbcodes malen</p>
+						<p>&#128073; App "Ozobot Bit"</p>
+						<p>&#128073; OzoBlockly</p>
+					</section>
+				</section>
+				<section>
+					<section data-background="images/ozobot-desk1.jpg">
+						<h2><span style="background-color: #4a0c5b; opacity: 0.8">&nbsp;Linien und FarbCodes malen&nbsp;</span></h2>
+					</section>
+					<section data-background-video="videos/ozobot-draw-colours.mp4" data-background-video-loop data-background-video-muted>
+						<p style="margin-top: 60%">LED nimmt die erkannte Farbe an</p>
+					</section>
+					<section data-background-video="videos/ozobot-draw-colours-fail.mp4" data-background-video-loop data-background-video-muted>
+						<p style="margin-top: 60%">Stifte vorher testen!</p>
+					</section>
+					<section data-background-video="videos/ozobot-draw-calibrate.mp4" data-background-video-loop data-background-video-muted>
+						<p style="margin-top: 60%">Kalibrieren<br/>(vor allem bei Wechsel zwischen Papier und Display)</p>
+					</section>
+					<section data-background="#1a6e99">
+						<p><a href="http://ilearnit.ch/de/ozobot.html" target="blanc"><img src="images/ozobot-farbcodes.png"></a></p>
+					</section>
+					<section data-background-video="videos/ozobot-draw-speed.mp4" data-background-video-loop data-background-video-muted>
+						<p style="margin-top: 60%">Geschwindigkeit beeinflussen</p>
+					</section>
+					<section data-background-video="videos/ozobot-draw-direction.mp4" data-background-video-loop data-background-video-muted>
+						<p style="margin-top: 60%">Richtung an der n&auml;chsten Kreuzung beeinflussen<br/>(sonst zuf&auml;llig)</p>
+					</section>
+					<section data-background-video="videos/ozobot-draw-fail.mp4" data-background-video-loop data-background-video-muted>
+						<p style="margin-top: 60%">Stunts wie Zickzack oder Kreisel fahren</p>
+					</section>
+				</section>
+				<section>
+					<section data-background="images/ozobot-app-quest.jpg">
+						<h2><span style="background-color: #910851; opacity: 0.7">&nbsp;App "Ozobot Bit"&nbsp;</span></h2>
+					</section>
+					<section data-background-video="videos/ozobot-app-draw-simple.mp4" data-background-video-loop data-background-video-muted></section>
+					<section data-background-video="videos/ozobot-app-draw-directions.mp4" data-background-video-loop data-background-video-muted></section>
+					<section data-background-video="videos/ozobot-app-draw-styles.mp4" data-background-video-loop data-background-video-muted></section>
+					<section data-background-video="videos/ozobot-app-lucky.mp4" data-background-video-loop data-background-video-muted></section>
+					<section data-background="images/ozobot-app-quest.jpg">
+						<p style="margin-top: 60%">Quests</p>
+					</section>
+					<section data-background-video="videos/ozobot-app-dance.mp4" data-background-video-loop></section>
+				</section>
+				<section>
+					<section data-background="images/ozobot-ozoblockly.jpg">
+						<h2 style="background-color: #1a6e99; opacity: 0.9">OzoBlockly</h2>
+					</section>
+					<section data-background-iframe="https://ozoblockly.com/editor?lang=en&robot=bit&mode=2" data-background-interactive></section>
+					<section data-background-video="videos/ozobot-ozoblockly-store.mp4" data-background-video-loop data-background-video-muted></section>
+					<section data-background-video="videos/ozobot-ozoblockly-result.mp4" data-background-video-loop data-background-video-muted></section>
+				</section>
+				<section>
+					<section data-background="#34aa19">
+						<h2>Wof&uuml;r soll das gut sein? &#129300;</h2>
+					</section>
+					<section data-background="#34aa19">
+						<h2>Informatische Grundbildung</h2>
+						<p>Codierung && Algorithmen <br/>&#9193; einfache Programmierung</p>
+						<p>weitere kreative Einsatzm&ouml;glichkeiten (im Unterricht)</p>
+					</section>
+					<section data-background="#001928">
+						<h2>OZOBOT&copy; Unterrichtsbeispiele</h2>
+						<p>Anleitungen f&uuml;r 10 Unterrichtseinheiten inkl. Lehrplanbezug, TU Graz.</p>
+						<p><a href="https://learninglab.tugraz.at/informatischegrundbildung/oer-schulbuch/ozobot-unterrichtsbeispiele/" target="blank"> &#128279;Link</a> (fast alles <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de" target="blank">CC0</a>)</p>
+						<p>Au&amp;erdem: Youtube-Playlist "<a href="https://www.youtube.com/watch?v=xJ8NqMXY3rE&list=PLhy2nHJciTEAurk4S87jj-QgwuM2VYK5j" target="blank">You can Code</a>" (<a href="https://creativecommons.org/licenses/by/3.0/legalcode" target="blank">CC BY</a>)</p>
+					</section>
+					<section data-background="#001928">
+						<h2>Ozobot Projektideen</h2>
+						<p>Brosch&uuml;re von Michael Hielscher & Beat D&ouml;beli, P&auml;dagogische Hochschule Schwyz, 2016.</p>
+						<p><a href="http://ilearnit.ch/de/ozobot.html" target="blank">&#128279;Link</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/de/" target="blank">CC BY-SA</a>)</p>
+						<ul>
+							<li>Schatzsuche, Labyrinth</li>
+							<li>OzoCards basteln</li>
+							<li>W&uuml;rfeln mit Ozobots...</li>
+						</ul>
+					</section>
+					<section data-background="#001928">
+						<h2>Materialien zum Ozobot</h2>
+						<p>Linksammlung, Anleitungen & Vorlagen von Karin Tengler, "Education Innovation Studio" der P&auml;dagogischen Hochschule Nieder&ouml;sterreich (2016).</p>
+						<p><a href="https://eis.ph-noe.ac.at/ozobot0/" target="blank">&#128279;Link</a> (<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/de/" target="blank">CC BY-NC-SA</a>)<br/><br/></p>
+						<p>Daraus ein paar Beispiele:</p>
+					</section>
+					<section data-background-iframe="https://eis.ph-noe.ac.at/ozobot8/" data-background-interactive></section>
+					<section data-background-iframe="https://eis.ph-noe.ac.at/ozobot10/" data-background-interactive></section>
+					<section data-background-iframe="https://eis.ph-noe.ac.at/ozobot12/" data-background-interactive></section>
+				</section>
+				<section data-background-video="videos/ozobot-draw-busy.mp4" data-background-video-loop data-background-video-muted>
+					<h2>Danke! &#129302;</h2>
+					<p style="font-size:70%">
+						<br/><br/>Soweit gesetzlich m&ouml;glich, wird auf alle Urheberrechte und verwandten Schutzrechte verzichtet. Auf Ausnahmen wird bei den verwendeten Werken hingewiesen.<br/>
+						<a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/deed.de"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://licensebuttons.net/l/zero/1.0/88x31.png" /></a>
+					</p>
+					<p style="background-color: #910851; opacity: 0.7; font-size:80%">&nbsp;<a href="https://twitter.com/anjalorenz">@anjalorenz</a> | &#128279;Slides: <a href="https://kurzelinks.de/ozobots" target="blank">https://kurzelinks.de/ozobots</a>&nbsp;</p>
+				</section>
+				
+<!-- TODO: Transition einstellen -->
+	
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+
+	</body>
+</html>
